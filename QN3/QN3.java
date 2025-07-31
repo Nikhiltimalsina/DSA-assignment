@@ -41,7 +41,7 @@
 
 
 package QN3;
-public class QN3a {
+public class QN3{
 
     public static int maxRepetitions(String p1, int t1, String p2, int t2) {
         int len1 = p1.length();

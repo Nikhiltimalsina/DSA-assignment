@@ -25,7 +25,7 @@
 
 
 
-package Question6;
+package QN6;
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;

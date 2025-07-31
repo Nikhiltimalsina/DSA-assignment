@@ -58,10 +58,10 @@
 
 
 
-package Question4;
+package QN4;
 import java.util.*;
 
-public class Question4b {
+public class QN4b {
 
     static final int DRAW = 0;
     static final int PLAYER1_WIN = 1;
@@ -114,7 +114,7 @@ public class Question4b {
     }
 
     public static void main(String[] args) {
-        Question4b game = new Question4b();
+        QN4b game = new QN4b();
         int[][] graph = {
             {2, 5},
             {3},

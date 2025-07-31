@@ -43,10 +43,10 @@
 // Thus, total valid periods = 5.
 
 
-package Question2;
+package QN2;
 import java.util.*;
 
-public class Question2a {
+public class QN2a {
 
     public static int countAnomalousPeriods(int[] temperature_changes, int low, int high) {
         TreeMap<Long, Integer> prefixMap = new TreeMap<>();

@@ -41,7 +41,7 @@
 
 
 
-package Question5;
+package QN5;
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
@@ -187,10 +187,10 @@ class MazePanel extends JPanel {
     }
 }
 
-public class Question5a extends JFrame {
+public class QN5a extends JFrame {
     MazePanel mazePanel = new MazePanel();
 
-    public Question5a() {
+    public QN5a() {
         super("Maze Solver");
 
         JButton dfsBtn = new JButton("Solve with DFS");
@@ -216,6 +216,6 @@ public class Question5a extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Question5a::new);
+        SwingUtilities.invokeLater(QN5a::new);
     }
 }

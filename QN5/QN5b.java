@@ -46,7 +46,7 @@
 
 
 
-package Question5;
+package QN5;
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
@@ -148,7 +148,7 @@ class BookingProcessor implements Runnable {
 }
 
 // Main GUI
-public class Question5b extends JFrame {
+public class QN5b extends JFrame {
     SeatManager seatManager = new SeatManager(40);
     BlockingQueue<BookingRequest> bookingQueue = new LinkedBlockingQueue<>();
     boolean useOptimisticLocking = true;
@@ -156,7 +156,7 @@ public class Question5b extends JFrame {
     JTextArea statusArea = new JTextArea(20, 30);
     JTextArea logArea = new JTextArea(10, 30);
 
-    public Question5b() {
+    public QN5b() {
         super("🎟️ Online Ticket Booking System");
 
         statusArea.setEditable(false);
@@ -220,6 +220,6 @@ public class Question5b extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(Question5b::new);
+        SwingUtilities.invokeLater(QN5b::new);
     }
 }

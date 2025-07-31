@@ -32,8 +32,8 @@
 // Explanation: Already meets all criteria
 
 
-package Question1;
-public class Question1b {
+package QN1;
+public class QN1b {
 
     public static int strongPINChanges(String pin_code) {
         int n = pin_code.length();

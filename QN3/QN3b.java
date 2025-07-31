@@ -29,8 +29,8 @@
 // The product is 5 × 7 = 35.
 
 
-package Question3;
-public class Question3b {
+package QN3;
+public class QN3b {
 
     public static int maxMagicalPower(String M) {
         int n = M.length();

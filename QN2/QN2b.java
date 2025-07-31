@@ -43,10 +43,10 @@
 
 
 
-package Question2;
+package QN2;
 import java.util.*;
 
-public class Question2b{
+public class QN2b{
 
     static String[] words = {"STAR", "MOON"};
     static String result = "NIGHT";
@@ -138,7 +138,7 @@ public class Question2b{
             System.out.println(w + " = " + wordToNumber(w));
         }
         System.out.println(result + " = " + wordToNumber(result));
-       System.out.println("Check: sum of words = " + Arrays.stream(words).mapToInt(Question2b::wordToNumber).sum());
+       System.out.println("Check: sum of words = " + Arrays.stream(words).mapToInt(QN2b::wordToNumber).sum());
 
     }
 }

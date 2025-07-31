@@ -35,10 +35,10 @@
 
 
 
-package Question1;
+package QN1;
 import java.util.*;
 
-public class Question1 {
+public class QN1 {
 
     public static int maximizeCapital(int k, int c, int[] revenues, int[] investments) {
         int n = revenues.length;
